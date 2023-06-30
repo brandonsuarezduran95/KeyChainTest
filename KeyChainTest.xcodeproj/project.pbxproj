@@ -13,6 +13,25 @@
 		99907E8C2A4BBC0C0073DDED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99907E8A2A4BBC0C0073DDED /* Main.storyboard */; };
 		99907E8E2A4BBC0D0073DDED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99907E8D2A4BBC0D0073DDED /* Assets.xcassets */; };
 		99907E912A4BBC0D0073DDED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99907E8F2A4BBC0D0073DDED /* LaunchScreen.storyboard */; };
+		99907E992A4BBC220073DDED /* KeyChainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907E982A4BBC220073DDED /* KeyChainManager.swift */; };
+		99907EA02A4CEDDE0073DDED /* ViewController + save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907E9F2A4CEDDE0073DDED /* ViewController + save.swift */; };
+		99907EA22A4CEDFF0073DDED /* ViewController + getPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EA12A4CEDFF0073DDED /* ViewController + getPassword.swift */; };
+		99907EA42A4CF33F0073DDED /* ViewController + setUpLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EA32A4CF33F0073DDED /* ViewController + setUpLogo.swift */; };
+		99907EA62A4CF3480073DDED /* ViewController + setUpViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EA52A4CF3480073DDED /* ViewController + setUpViews.swift */; };
+		99907EAA2A4CF7920073DDED /* ViewController + setUpBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EA92A4CF7920073DDED /* ViewController + setUpBackgroundView.swift */; };
+		99907EAC2A4CFBB90073DDED /* ViewController + setUpTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EAB2A4CFBB90073DDED /* ViewController + setUpTitleLabel.swift */; };
+		99907EAE2A4CFDEC0073DDED /* ViewController + setUpMessageLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EAD2A4CFDEC0073DDED /* ViewController + setUpMessageLabel.swift */; };
+		99907EB52A4D9EDF0073DDED /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EB42A4D9EDF0073DDED /* TextFieldViewController.swift */; };
+		99907EB72A4D9F170073DDED /* ViewController + setUpChildController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EB62A4D9F170073DDED /* ViewController + setUpChildController.swift */; };
+		99907EB92A4E32060073DDED /* TextFieldViewController + seUpViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EB82A4E32060073DDED /* TextFieldViewController + seUpViews.swift */; };
+		99907EBB2A4E32A50073DDED /* TextFieldViewController + setUpMessageLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EBA2A4E32A50073DDED /* TextFieldViewController + setUpMessageLabel.swift */; };
+		99907EBD2A4E352F0073DDED /* TextFieldViewController + seUpLockIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EBC2A4E352F0073DDED /* TextFieldViewController + seUpLockIcon.swift */; };
+		99907EBF2A4E38670073DDED /* TextFieldViewController + setUpTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EBE2A4E38670073DDED /* TextFieldViewController + setUpTextField.swift */; };
+		99907EC12A4E3BE80073DDED /* TextFieldViewController + setUpEyeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EC02A4E3BE80073DDED /* TextFieldViewController + setUpEyeButton.swift */; };
+		99907EC32A4E405A0073DDED /* TextFieldViewController + setUpSeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EC22A4E405A0073DDED /* TextFieldViewController + setUpSeparatorView.swift */; };
+		99907EC52A4E45E70073DDED /* ViewController + setUpCreatePasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EC42A4E45E70073DDED /* ViewController + setUpCreatePasswordController.swift */; };
+		99907EC72A4E45F30073DDED /* ViewController + setUpConfirmPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EC62A4E45F30073DDED /* ViewController + setUpConfirmPasswordController.swift */; };
+		99907EC92A4E60A90073DDED /* ViewController + setUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EC82A4E60A90073DDED /* ViewController + setUpButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +43,25 @@
 		99907E8D2A4BBC0D0073DDED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99907E902A4BBC0D0073DDED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99907E922A4BBC0D0073DDED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99907E982A4BBC220073DDED /* KeyChainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainManager.swift; sourceTree = "<group>"; };
+		99907E9F2A4CEDDE0073DDED /* ViewController + save.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + save.swift"; sourceTree = "<group>"; };
+		99907EA12A4CEDFF0073DDED /* ViewController + getPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + getPassword.swift"; sourceTree = "<group>"; };
+		99907EA32A4CF33F0073DDED /* ViewController + setUpLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + setUpLogo.swift"; sourceTree = "<group>"; };
+		99907EA52A4CF3480073DDED /* ViewController + setUpViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + setUpViews.swift"; sourceTree = "<group>"; };
+		99907EA92A4CF7920073DDED /* ViewController + setUpBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + setUpBackgroundView.swift"; sourceTree = "<group>"; };
+		99907EAB2A4CFBB90073DDED /* ViewController + setUpTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + setUpTitleLabel.swift"; sourceTree = "<group>"; };
+		99907EAD2A4CFDEC0073DDED /* ViewController + setUpMessageLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + setUpMessageLabel.swift"; sourceTree = "<group>"; };
+		99907EB42A4D9EDF0073DDED /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
+		99907EB62A4D9F170073DDED /* ViewController + setUpChildController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + setUpChildController.swift"; sourceTree = "<group>"; };
+		99907EB82A4E32060073DDED /* TextFieldViewController + seUpViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextFieldViewController + seUpViews.swift"; sourceTree = "<group>"; };
+		99907EBA2A4E32A50073DDED /* TextFieldViewController + setUpMessageLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextFieldViewController + setUpMessageLabel.swift"; sourceTree = "<group>"; };
+		99907EBC2A4E352F0073DDED /* TextFieldViewController + seUpLockIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextFieldViewController + seUpLockIcon.swift"; sourceTree = "<group>"; };
+		99907EBE2A4E38670073DDED /* TextFieldViewController + setUpTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextFieldViewController + setUpTextField.swift"; sourceTree = "<group>"; };
+		99907EC02A4E3BE80073DDED /* TextFieldViewController + setUpEyeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextFieldViewController + setUpEyeButton.swift"; sourceTree = "<group>"; };
+		99907EC22A4E405A0073DDED /* TextFieldViewController + setUpSeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextFieldViewController + setUpSeparatorView.swift"; sourceTree = "<group>"; };
+		99907EC42A4E45E70073DDED /* ViewController + setUpCreatePasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + setUpCreatePasswordController.swift"; sourceTree = "<group>"; };
+		99907EC62A4E45F30073DDED /* ViewController + setUpConfirmPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + setUpConfirmPasswordController.swift"; sourceTree = "<group>"; };
+		99907EC82A4E60A90073DDED /* ViewController + setUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + setUpButton.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +94,122 @@
 		99907E832A4BBC0C0073DDED /* KeyChainTest */ = {
 			isa = PBXGroup;
 			children = (
-				99907E842A4BBC0C0073DDED /* AppDelegate.swift */,
-				99907E862A4BBC0C0073DDED /* SceneDelegate.swift */,
-				99907E882A4BBC0C0073DDED /* ViewController.swift */,
-				99907E8A2A4BBC0C0073DDED /* Main.storyboard */,
-				99907E8D2A4BBC0D0073DDED /* Assets.xcassets */,
-				99907E8F2A4BBC0D0073DDED /* LaunchScreen.storyboard */,
+				99907E9E2A4CED920073DDED /* KeyChain Manager */,
+				99907E9C2A4CED7C0073DDED /* Main View */,
+				99907E9B2A4CED630073DDED /* Assets */,
+				99907E9A2A4CED4F0073DDED /* System Generated */,
 				99907E922A4BBC0D0073DDED /* Info.plist */,
 			);
 			path = KeyChainTest;
+			sourceTree = "<group>";
+		};
+		99907E9A2A4CED4F0073DDED /* System Generated */ = {
+			isa = PBXGroup;
+			children = (
+				99907E842A4BBC0C0073DDED /* AppDelegate.swift */,
+				99907E862A4BBC0C0073DDED /* SceneDelegate.swift */,
+			);
+			path = "System Generated";
+			sourceTree = "<group>";
+		};
+		99907E9B2A4CED630073DDED /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				99907E8A2A4BBC0C0073DDED /* Main.storyboard */,
+				99907E8D2A4BBC0D0073DDED /* Assets.xcassets */,
+				99907E8F2A4BBC0D0073DDED /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		99907E9C2A4CED7C0073DDED /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				99907EA72A4CF7520073DDED /* KeyChain Actions */,
+				99907EA82A4CF7610073DDED /* Views */,
+				99907E9D2A4CED850073DDED /* Controller */,
+			);
+			path = "Main View";
+			sourceTree = "<group>";
+		};
+		99907E9D2A4CED850073DDED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99907E882A4BBC0C0073DDED /* ViewController.swift */,
+				99907EB62A4D9F170073DDED /* ViewController + setUpChildController.swift */,
+				99907EC42A4E45E70073DDED /* ViewController + setUpCreatePasswordController.swift */,
+				99907EC62A4E45F30073DDED /* ViewController + setUpConfirmPasswordController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99907E9E2A4CED920073DDED /* KeyChain Manager */ = {
+			isa = PBXGroup;
+			children = (
+				99907E982A4BBC220073DDED /* KeyChainManager.swift */,
+			);
+			path = "KeyChain Manager";
+			sourceTree = "<group>";
+		};
+		99907EA72A4CF7520073DDED /* KeyChain Actions */ = {
+			isa = PBXGroup;
+			children = (
+				99907E9F2A4CEDDE0073DDED /* ViewController + save.swift */,
+				99907EA12A4CEDFF0073DDED /* ViewController + getPassword.swift */,
+			);
+			path = "KeyChain Actions";
+			sourceTree = "<group>";
+		};
+		99907EA82A4CF7610073DDED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99907EAF2A4D9E840073DDED /* Child ViewController */,
+				99907EA52A4CF3480073DDED /* ViewController + setUpViews.swift */,
+				99907EA32A4CF33F0073DDED /* ViewController + setUpLogo.swift */,
+				99907EA92A4CF7920073DDED /* ViewController + setUpBackgroundView.swift */,
+				99907EAB2A4CFBB90073DDED /* ViewController + setUpTitleLabel.swift */,
+				99907EAD2A4CFDEC0073DDED /* ViewController + setUpMessageLabel.swift */,
+				99907EC82A4E60A90073DDED /* ViewController + setUpButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99907EAF2A4D9E840073DDED /* Child ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99907EB02A4D9E900073DDED /* TextFieldViewController */,
+			);
+			path = "Child ViewController";
+			sourceTree = "<group>";
+		};
+		99907EB02A4D9E900073DDED /* TextFieldViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99907EB32A4D9EC90073DDED /* View */,
+				99907EB22A4D9EC30073DDED /* Controller */,
+			);
+			path = TextFieldViewController;
+			sourceTree = "<group>";
+		};
+		99907EB22A4D9EC30073DDED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99907EB42A4D9EDF0073DDED /* TextFieldViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99907EB32A4D9EC90073DDED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99907EB82A4E32060073DDED /* TextFieldViewController + seUpViews.swift */,
+				99907EBA2A4E32A50073DDED /* TextFieldViewController + setUpMessageLabel.swift */,
+				99907EBC2A4E352F0073DDED /* TextFieldViewController + seUpLockIcon.swift */,
+				99907EC02A4E3BE80073DDED /* TextFieldViewController + setUpEyeButton.swift */,
+				99907EBE2A4E38670073DDED /* TextFieldViewController + setUpTextField.swift */,
+				99907EC22A4E405A0073DDED /* TextFieldViewController + setUpSeparatorView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +283,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99907EBB2A4E32A50073DDED /* TextFieldViewController + setUpMessageLabel.swift in Sources */,
 				99907E892A4BBC0C0073DDED /* ViewController.swift in Sources */,
+				99907EA42A4CF33F0073DDED /* ViewController + setUpLogo.swift in Sources */,
+				99907EAC2A4CFBB90073DDED /* ViewController + setUpTitleLabel.swift in Sources */,
 				99907E852A4BBC0C0073DDED /* AppDelegate.swift in Sources */,
+				99907EB92A4E32060073DDED /* TextFieldViewController + seUpViews.swift in Sources */,
+				99907EA22A4CEDFF0073DDED /* ViewController + getPassword.swift in Sources */,
+				99907EBF2A4E38670073DDED /* TextFieldViewController + setUpTextField.swift in Sources */,
 				99907E872A4BBC0C0073DDED /* SceneDelegate.swift in Sources */,
+				99907E992A4BBC220073DDED /* KeyChainManager.swift in Sources */,
+				99907EC52A4E45E70073DDED /* ViewController + setUpCreatePasswordController.swift in Sources */,
+				99907EBD2A4E352F0073DDED /* TextFieldViewController + seUpLockIcon.swift in Sources */,
+				99907EAA2A4CF7920073DDED /* ViewController + setUpBackgroundView.swift in Sources */,
+				99907EB52A4D9EDF0073DDED /* TextFieldViewController.swift in Sources */,
+				99907EAE2A4CFDEC0073DDED /* ViewController + setUpMessageLabel.swift in Sources */,
+				99907EA02A4CEDDE0073DDED /* ViewController + save.swift in Sources */,
+				99907EA62A4CF3480073DDED /* ViewController + setUpViews.swift in Sources */,
+				99907EC12A4E3BE80073DDED /* TextFieldViewController + setUpEyeButton.swift in Sources */,
+				99907EC72A4E45F30073DDED /* ViewController + setUpConfirmPasswordController.swift in Sources */,
+				99907EC32A4E405A0073DDED /* TextFieldViewController + setUpSeparatorView.swift in Sources */,
+				99907EC92A4E60A90073DDED /* ViewController + setUpButton.swift in Sources */,
+				99907EB72A4D9F170073DDED /* ViewController + setUpChildController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
