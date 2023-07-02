@@ -10,10 +10,11 @@ import UIKit
 extension TextFieldViewController {
     func setUpTextField() {
         
-        textField.placeholder = "Create New Password"
+        textField.placeholder = viewModel.placeHolder
         textField.textAlignment = .left
-        textField.isSecureTextEntry = false
+        textField.isSecureTextEntry = true
         textField.font = .systemFont(ofSize: 16, weight: .medium)
+        textField.delegate = self
         
         textField.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([

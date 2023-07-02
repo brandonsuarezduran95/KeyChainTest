@@ -9,12 +9,13 @@ import UIKit
 
 extension TextFieldViewController {
     func setUpMessageLabel() {
-        messageLabel.text = "Create a Password"
+        messageLabel.text = viewModel.placeHolder
         messageLabel.textAlignment = .left
         messageLabel.font = .systemFont(ofSize: 12, weight: .medium)
         messageLabel.textColor = UIColor(named: "TextColor")
         messageLabel.lineBreakMode = .byTruncatingTail
         messageLabel.numberOfLines = 1
+        messageLabel.isHidden = true
         
         messageLabel.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([

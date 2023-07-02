@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9985E86F2A508951004E98A4 /* ViewController + NotifyKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9985E86E2A508951004E98A4 /* ViewController + NotifyKeyboard.swift */; };
+		9985E8722A51ABB4004E98A4 /* UIResponder + Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9985E8712A51ABB4004E98A4 /* UIResponder + Utils.swift */; };
+		9985E8742A51AD7F004E98A4 /* ViewController + keyBoardWillShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9985E8732A51AD7F004E98A4 /* ViewController + keyBoardWillShow.swift */; };
+		9985E8762A51ADBF004E98A4 /* ViewController + keyBoardWillHide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9985E8752A51ADBF004E98A4 /* ViewController + keyBoardWillHide.swift */; };
 		99907E852A4BBC0C0073DDED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907E842A4BBC0C0073DDED /* AppDelegate.swift */; };
 		99907E872A4BBC0C0073DDED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907E862A4BBC0C0073DDED /* SceneDelegate.swift */; };
 		99907E892A4BBC0C0073DDED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907E882A4BBC0C0073DDED /* ViewController.swift */; };
@@ -32,9 +36,14 @@
 		99907EC52A4E45E70073DDED /* ViewController + setUpCreatePasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EC42A4E45E70073DDED /* ViewController + setUpCreatePasswordController.swift */; };
 		99907EC72A4E45F30073DDED /* ViewController + setUpConfirmPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EC62A4E45F30073DDED /* ViewController + setUpConfirmPasswordController.swift */; };
 		99907EC92A4E60A90073DDED /* ViewController + setUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907EC82A4E60A90073DDED /* ViewController + setUpButton.swift */; };
+		99907ECB2A4E76420073DDED /* TextFieldViewController + textFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99907ECA2A4E76420073DDED /* TextFieldViewController + textFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9985E86E2A508951004E98A4 /* ViewController + NotifyKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + NotifyKeyboard.swift"; sourceTree = "<group>"; };
+		9985E8712A51ABB4004E98A4 /* UIResponder + Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder + Utils.swift"; sourceTree = "<group>"; };
+		9985E8732A51AD7F004E98A4 /* ViewController + keyBoardWillShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + keyBoardWillShow.swift"; sourceTree = "<group>"; };
+		9985E8752A51ADBF004E98A4 /* ViewController + keyBoardWillHide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + keyBoardWillHide.swift"; sourceTree = "<group>"; };
 		99907E812A4BBC0C0073DDED /* KeyChainTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyChainTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99907E842A4BBC0C0073DDED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99907E862A4BBC0C0073DDED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +71,7 @@
 		99907EC42A4E45E70073DDED /* ViewController + setUpCreatePasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + setUpCreatePasswordController.swift"; sourceTree = "<group>"; };
 		99907EC62A4E45F30073DDED /* ViewController + setUpConfirmPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + setUpConfirmPasswordController.swift"; sourceTree = "<group>"; };
 		99907EC82A4E60A90073DDED /* ViewController + setUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + setUpButton.swift"; sourceTree = "<group>"; };
+		99907ECA2A4E76420073DDED /* TextFieldViewController + textFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextFieldViewController + textFieldDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9985E8702A51AB92004E98A4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9985E8712A51ABB4004E98A4 /* UIResponder + Utils.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		99907E782A4BBC0C0073DDED = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +114,7 @@
 			children = (
 				99907E9E2A4CED920073DDED /* KeyChain Manager */,
 				99907E9C2A4CED7C0073DDED /* Main View */,
+				9985E8702A51AB92004E98A4 /* Extensions */,
 				99907E9B2A4CED630073DDED /* Assets */,
 				99907E9A2A4CED4F0073DDED /* System Generated */,
 				99907E922A4BBC0D0073DDED /* Info.plist */,
@@ -136,6 +155,9 @@
 			isa = PBXGroup;
 			children = (
 				99907E882A4BBC0C0073DDED /* ViewController.swift */,
+				9985E8752A51ADBF004E98A4 /* ViewController + keyBoardWillHide.swift */,
+				9985E8732A51AD7F004E98A4 /* ViewController + keyBoardWillShow.swift */,
+				9985E86E2A508951004E98A4 /* ViewController + NotifyKeyboard.swift */,
 				99907EB62A4D9F170073DDED /* ViewController + setUpChildController.swift */,
 				99907EC42A4E45E70073DDED /* ViewController + setUpCreatePasswordController.swift */,
 				99907EC62A4E45F30073DDED /* ViewController + setUpConfirmPasswordController.swift */,
@@ -195,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				99907EB42A4D9EDF0073DDED /* TextFieldViewController.swift */,
+				99907ECA2A4E76420073DDED /* TextFieldViewController + textFieldDelegate.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -283,9 +306,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9985E8722A51ABB4004E98A4 /* UIResponder + Utils.swift in Sources */,
 				99907EBB2A4E32A50073DDED /* TextFieldViewController + setUpMessageLabel.swift in Sources */,
 				99907E892A4BBC0C0073DDED /* ViewController.swift in Sources */,
 				99907EA42A4CF33F0073DDED /* ViewController + setUpLogo.swift in Sources */,
+				99907ECB2A4E76420073DDED /* TextFieldViewController + textFieldDelegate.swift in Sources */,
 				99907EAC2A4CFBB90073DDED /* ViewController + setUpTitleLabel.swift in Sources */,
 				99907E852A4BBC0C0073DDED /* AppDelegate.swift in Sources */,
 				99907EB92A4E32060073DDED /* TextFieldViewController + seUpViews.swift in Sources */,
@@ -299,9 +324,12 @@
 				99907EB52A4D9EDF0073DDED /* TextFieldViewController.swift in Sources */,
 				99907EAE2A4CFDEC0073DDED /* ViewController + setUpMessageLabel.swift in Sources */,
 				99907EA02A4CEDDE0073DDED /* ViewController + save.swift in Sources */,
+				9985E8742A51AD7F004E98A4 /* ViewController + keyBoardWillShow.swift in Sources */,
 				99907EA62A4CF3480073DDED /* ViewController + setUpViews.swift in Sources */,
 				99907EC12A4E3BE80073DDED /* TextFieldViewController + setUpEyeButton.swift in Sources */,
 				99907EC72A4E45F30073DDED /* ViewController + setUpConfirmPasswordController.swift in Sources */,
+				9985E86F2A508951004E98A4 /* ViewController + NotifyKeyboard.swift in Sources */,
+				9985E8762A51ADBF004E98A4 /* ViewController + keyBoardWillHide.swift in Sources */,
 				99907EC32A4E405A0073DDED /* TextFieldViewController + setUpSeparatorView.swift in Sources */,
 				99907EC92A4E60A90073DDED /* ViewController + setUpButton.swift in Sources */,
 				99907EB72A4D9F170073DDED /* ViewController + setUpChildController.swift in Sources */,
@@ -457,8 +485,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +494,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon-suarez.KeyChainTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -485,8 +516,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -494,6 +525,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon-suarez.KeyChainTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
